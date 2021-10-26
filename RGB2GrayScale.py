@@ -1,12 +1,6 @@
 from PIL import Image
 import numpy as np
 
-im = Image.open('test_data/input/1.jpg')
-
-print("Image format: ", im.format)
-print("Image Size: ", im.size)
-print("Image Mode: ", im.mode)
-
 
 def rgb_to_gray(im):
     new_im = Image.new(mode='L', size=im.size)
@@ -25,7 +19,13 @@ def rgb_to_gray(im):
     return new_im
 
 
-new_im1 = rgb_to_gray(im)
-new_im1.show()
+if __name__ == '__main__':
+    im = Image.open('test_data/input/1.jpg')
 
-new_im1.save('test_data/output/1_gs.jpg', quality=95)
+    print("Image format: ", im.format)
+    print("Image Size: ", im.size)
+    print("Image Mode: ", im.mode)
+    new_im1 = rgb_to_gray(im)
+    new_im1.show()
+
+    new_im1.save('test_data/output/1_gs.jpg', quality=95)
