@@ -27,6 +27,27 @@ For Dithering, you can run the [`OrderedDithering`](OrderedDithering.py) File, g
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Project Results Example
+
+**The Original Image:**
+
+![IMAGE NOT FOUND](Examples/original_image.jpg?raw=true "Original Image")
+
+
+
+**The GrayScale Image:**
+
+![IMAGE NOT FOUND](Examples/grayscale_image.jpg?raw=true "GrayScale Image")
+
+
+
+**The Dithered Image:**
+
+![IMAGE NOT FOUND](Examples/dithered_image.jpg?raw=true "Original Image")
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 ## License
