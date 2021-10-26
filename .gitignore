@@ -1,0 +1,9 @@
+
+# pycharm config folder
+.idea/
+
+# virtual enviorment folder
+venv/
+
+# test data images folder
+test_data/
